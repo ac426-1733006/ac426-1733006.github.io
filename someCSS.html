@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="anExternal.css">
+
+        <title>Some CSS Using HTML</title>
+        <style>
+                .container {
+                  position: relative;
+                  text-align: center;
+                  color: white;
+                }
+
+                .centered {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                }
+        </style>
+    </head>
+
+    <body style="background-color: rgb(50, 231, 177)";>
+        <h1 style="word-spacing: 10px";>The word spacing in this header is 10px.</h1>
+        <p style="font-family: 'Lucida Sans'";>This is the first paragraph with one type of font.</p>
+        <p style="font-family:cursive";>This is the second paragraph with a second type of font.</p>
+        <div>
+            <img style="height:50px; width:50px;" src="https://thehappypuppysite.com/wp-content/uploads/2017/10/goldie.jpg">
+            <img style="height:50px; width:50px;" src= "https://qph.fs.quoracdn.net/main-qimg-257388444c388cf0b2a5d1cac72b40fe.webp">
+        </div>
+        <p style="border: dotted";>Text with dotted border.</p>
+
+        <div class="container">
+            <img style="margin:20px"; src="https://images.unsplash.com/photo-1503803548695-c2a7b4a5b875?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80">
+            <div class="centered" style="font-size: large">This image has 20px margins. This text is centered!</div>
+        </div>
+
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/V4Uuxg6jmbo?start=180" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            The video will be to the left of this text. It's a floating element! Below is an element with rounded borders.</p>
+        
+        <video>
+            <source src="Galaxy S7.mp4" type="video/mp4">
+        </video>
+    </body>
+</html>
